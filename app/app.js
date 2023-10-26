@@ -16,10 +16,10 @@ var GAMES = [
         gameRating: "T"
     },
     {
-        gameTitle: "Call of Duty: Black Ops III",
+        gameTitle: "Call of Duty: Black Ops II",
         gameThumbImg: "thumb3_300x300.jpg",
         gameFullImg: "",
-        gameBriefDescription: "Call of Duty: Black Ops III is a 2015 first-person shooter game developed by Treyarch and published by Activision.",
+        gameBriefDescription: "Call of Duty: Black Ops II is a 2012 first-person shooter game developed by Treyarch and published by Activision.",
         gameDescription: "",
         gameRating: "M"
     },
