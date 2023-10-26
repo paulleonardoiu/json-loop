@@ -1,0 +1,87 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+}
+
+h1, h2, h3, h4, h5, p {
+  margin-bottom: 16px;
+}
+
+button {
+  cursor: pointer;
+}
+
+.site-container {
+  width: 100%;
+  height: 100%;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  background-color: gray;
+}
+
+a {
+  text-decoration: none;
+}
+
+.appContainer {
+  padding: 40px 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  gap: 16px;
+  background-image: url("../images/games/background.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.appContainer .game {
+  background-color: #202020;
+  padding: 10px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.appContainer .game .text {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  color: #fff;
+}
+.appContainer .game .text .title {
+  color: goldenrod;
+  font-weight: bold;
+  font-size: 20px;
+}
+.appContainer .game .text hr {
+  margin-top: -12px;
+  width: 220px;
+}
+.appContainer .game .text .desc {
+  margin-top: 12px;
+  min-height: 100px;
+}
+.appContainer .game .text .rating {
+  color: goldenrod;
+  font-size: 14px;
+  font-weight: bold;
+}
+.appContainer .game p {
+  width: 300px;
+}

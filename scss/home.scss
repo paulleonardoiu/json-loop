@@ -1,0 +1,57 @@
+.appContainer{
+    padding: 40px 20px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 16px;
+    // padding: 20px;
+    background-image: url("../images/games/background.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    .game{
+        background-color: #202020;
+        padding: 10px;
+        // box-shadow: 0 4px 8px 0 rgba(255, 255, 255, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.8);
+        // box-shadow: 0 4px 8px 0 rgba(218, 165, 32, 0.6), 0 6px 20px 0 rgba(255, 255, 255, 0.8);
+        border-radius: 10px;
+        display: flex;
+        // justify-content: space-between;
+        flex-direction: column;
+        .text{
+            margin-top: 10px;
+            padding: 5px;
+            border-radius: 5px;
+            color: #fff;
+            // padding-top: 10px;
+            // background-color: #fff;
+            .title{
+                color: goldenrod;
+                font-weight: bold;
+                font-size: 20px;
+            }
+            hr{
+                margin-top: -12px;
+                width: 220px;
+            }
+            .desc{
+                margin-top: 12px;
+                // color: tan;
+                min-height: 100px;
+            }
+            .rating{
+                color: goldenrod;
+                font-size: 14px;
+                font-weight: bold;
+            }
+        }
+        // display: flex;
+        // justify-content: center;
+        // align-items: center;
+        // flex-direction: column;
+        p{
+            width: 300px;
+            // margin: 0;
+        }
+    }
+}
